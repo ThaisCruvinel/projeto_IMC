@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+}
+body{
+    background: linear-gradient( to right, #5800FF, #0096FF, #00D7FF, #72FFFF);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+main{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff49;
+}
+.divAltura, .divPeso, .divCalc{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, button{
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+}
